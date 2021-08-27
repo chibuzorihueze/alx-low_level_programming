@@ -1,14 +1,17 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
+
 /**
- * main - Entry point
+ * main - finds the last int in a random number
  *
- * Return: Always 0 (Success)
+ * Description: The numbers are generated automatically
+ * Return: Always(0) Success
  */
+
 int main(void)
 {
-	int n;
+	int n, last_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
