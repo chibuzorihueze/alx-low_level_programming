@@ -3,7 +3,7 @@
  * print_alphabet - prints alphabet
  */
 void print_alphabet(void)
-  int main(void)
+ 
 {
 	char c;
 
