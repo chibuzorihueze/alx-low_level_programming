@@ -2,10 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c); 
-int main(int argc, char const *argv[]);
-int main(int argc, char const *argv[]);
-int main(int argc, char const *argv[]);
+int main(int argc __attribute__((unused)), char *argv[]);
 int main(int argc, char const *argv[]);
 int isInteger(const char *s);
-int main(int argc, char const *argv[]);
 #endif
