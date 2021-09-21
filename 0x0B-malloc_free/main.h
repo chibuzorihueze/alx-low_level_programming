@@ -7,8 +7,7 @@ char *_strdup(char *str);
 int _strlen(char *s);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
-int _strlen(char *s);
-char *str_addChar (char *str, char c);
-unsigned int nbr_spaces(char *s);
+void ch_free_grid(char **grid, unsigned int height);
 char **strtow(char *str);
+
 #endif
